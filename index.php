@@ -4,7 +4,7 @@
   $servername = "localhost";
   $username = "root";
   $password = "";
-  $db = "tiger_park";
+  $db = "tigerpark";
 
   // Create connection
   $conn = mysqli_connect($servername, $username, $password, $db);
@@ -15,7 +15,7 @@
   }
   echo "Connected successfully";
 
-  $sql = "SELECT id, fname, lname FROM test";
+  /*$sql = "SELECT id, fname, lname FROM test";
   $result = mysqli_query($conn, $sql);
 
   if (mysqli_num_rows($result) > 0) {
@@ -25,7 +25,7 @@
     }
   } else {
     echo "0 results";
-  }
+  }*/
 
 
 ?>
@@ -44,6 +44,26 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
+
+    <table class="center">
+
+    <tr>
+      <th>Garage</th>
+      <th>Available Space</th>
+    </tr>
+    <tr>
+      <td>Glen</td>
+    </tr>
+    <tr>
+    <td>TowsonTown</td>
+    </tr>
+    <tr>
+      <td>Union</td>
+    </tr>
+    <tr>
+      <td>West Village</td>
+    </tr>
+  </table>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
